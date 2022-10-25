@@ -46,6 +46,21 @@ namespace PatientDoctorApplication.Controllers
             return View();
         }
 
+
+        /// <summary>
+        /// Author: Roswell Doria
+        /// Date: 2022-10-25
+        /// 
+        /// This function is responsible for displaying the Registration page
+        /// if the user wants to register as a doctor or a patient
+        ///
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Register()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
