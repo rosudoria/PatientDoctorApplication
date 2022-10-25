@@ -18,6 +18,34 @@ namespace PatientDoctorApplication.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Author: Roswell Doria
+        /// Date: 2022-10-25
+        /// 
+        /// This function is responsible for displaying the Doctor's landing page
+        /// after successfully logging in.
+        ///
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult DoctorIndex()
+        {
+            return View();
+        }
+
+        /// <summary>
+        /// Author: Roswell Doria
+        /// Date: 2022-10-25
+        /// 
+        /// This function is responsible for displaying the Patient's landing page
+        /// after successfully logging in.
+        ///
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult PatientIndex()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
